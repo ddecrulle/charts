@@ -171,7 +171,7 @@ Return PostgreSQL service port
 {{- end -}}
 
 {{/*
-Return PostgreSQL service port
+Return PostgreSQL read replicas service port
 */}}
 {{- define "postgresql.readReplica.service.port" -}}
 {{- if .Values.global.postgresql.service.ports.postgresql }}
